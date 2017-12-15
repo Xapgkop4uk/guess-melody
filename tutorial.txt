@@ -1,0 +1,13 @@
+Русский:
+
+Для настройки игры необходимо открыть conf.js и установить свои значения для параметров
+После этого загрузить аудио файлы в формате mp3 со следующими именами:
+Для клетки в первой строке со стоимостью 100 имя файла будет "100-0.mp3" 
+Для клетки в пятой строке со стоимостью 300 имя файла будет "300-400-0.mp3" 
+
+English:
+
+For set up the game you need to open conf.js and set your variables for parameters.
+After that put audio files in mp3 extension named like thit:
+For price value = 100 and first row your name will be "100-0.mp3", 
+For price value = 300 and fifth row your name will be "300-4.mp3"
