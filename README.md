@@ -8,12 +8,23 @@ Download zip or clone project from GitHub to your local machine.
 
 ### Installing
 
-For set up the game you need:
-* Open conf.js. 
-* Set your variables for parameters.
-* Put audio files in mp3 extension named by next rule: Name of cell calculated from price of column +"-"+number of row-1. For Example:
-  * For price = "100" and first row your name will be "100-0.mp3".
-  * For price = "300" and fifth row your name will be "300-4.mp3".
+The game is easy to modify for yourself, collecting a set of tracks and album covers in the directories:
+
+* src\audio
+* src\covers
+
+The configuration is in the file \ conf.js as a json array. It is enough to prescribe in your positions:
+
+* category names
+* name of the mp3 file
+* tips
+* filename with cover
+* artist name for display on the screen
+* the name of the song to be displayed on the screen
+
+You can change the number of categories by adding additional elements to the array.
+
+To start - run in the browser \ index.html
 
 ## Technologies
 
@@ -23,6 +34,7 @@ For set up the game you need:
 ## Authors
 
 * **Vladimir Popinov** - *Developer*
+* **Konstantin Lukianov** - *Tester*
 
 ## License
 

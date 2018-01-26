@@ -6,9 +6,17 @@
   -o-transition: background-color 0.5s ease-out;
   -ms-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  -ms-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  color:#ffffff;
+  font-weight:500;
 }
 body{
   font-size: 60px;
+  background-color:#1a1043;
 }
 .justify-content-center{
   min-width: 1200px;
@@ -16,19 +24,119 @@ body{
 }
 p{
   margin: 0;
-  padding: 50px 0px;
-}
+  padding: 50px 75px 50px 0px;
+  color:#ffffff;
+  font-weight:600;
+  text-align: right;
+   }
 html,body{
   height: 100%;
 }
 
 .badge-primary{
   cursor: pointer;
+    background-color:#ff1744;
+
 }
 .badge-primary:hover{
-  background-color:#0069d9;
+  background-color:#3f51b5;
+}
+.btn-success:not([disabled]):not(.disabled):active{
+  background-color:black;
+  box-shadow:unset;
 }
 .btn{
   margin:0px 10px;
+  font-size:2rem;
   cursor:pointer;
+  border:unset
+}
+.btn-success {
+    color: #fff;
+    background-color: #ff1744;
+    border-color: #ff1744;
+}
+.btn-success:hover {
+    background-color:#3f51b5;
+}
+.control >span{
+  margin:20px;
+  font-size: 120px;
+}
+.control{
+  display: grid;
+}
+.badge-primary:hover,.btn:hover{
+  background-color: black
+}
+.container{
+  max-width: unset;
+}
+.modal{
+  display:flex;
+  color:#ffffff;
+  background: rgba(18, 1, 50, 0.9);
+
+}
+.modal-content{
+   background-color:#1a1043;
+}
+.list-group-item{
+   background-color:#1a1043;
+   border:unset;
+}
+.badge-pink{
+  background-color: #ff00cf;
+  color: black;
+  cursor:pointer;
+}
+.badge-success{
+  background-color: #ff1744;
+
+}
+.modal-header{
+  display: unset;
+
+}
+
+.modal-dialog{
+  max-width: 1000px;
+  margin:auto;
+}
+
+li.list-group-item > p{
+  padding: unset;
+  display: inline;
+  margin: 17px;
+  color: white;
+  font-weight: 600;
+}
+
+span {
+  color:#ff1744;
+}
+
+path{
+  pointer-events: none;
+}
+
+.oi:hover {
+
+    box-shadow: 0 0 5px #ff1744;
+}
+
+.icon{
+  width: 130px;
+  height: 130px;
+  fill: #ff1744;
+  cursor:pointer;
+}
+
+.icon:hover{
+  stroke-width:0.3;
+  stroke: black;
+}
+
+.icon-account-login {
+
 }
